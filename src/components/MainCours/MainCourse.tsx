@@ -1,4 +1,3 @@
-
 import { Coffee } from 'lucide-react';
 import Heading from '../Heading/Heading';
 import { MainCoursItem } from '@/constant/MainCourse';

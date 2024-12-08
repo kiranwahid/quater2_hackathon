@@ -1,5 +1,4 @@
 import { Clock } from 'lucide-react'
-
 export default function AboutUsSection() {
   return (
     <div className='w-[395.2px]'>

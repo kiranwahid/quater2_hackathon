@@ -1,7 +1,5 @@
 import React from "react";
-
 import Image from "next/image";
-
 import chef1 from "../assets/Chef Card 1.png";
 import chef2 from "../assets/Card 2.png";
 import chef3 from "../assets/Card 3.png";

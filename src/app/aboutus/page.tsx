@@ -32,7 +32,7 @@ export default function Aboutus() {
             <Image
               className="object-cover object-center w-336px h-536px mt-530px ml-300px radius-6px"
               alt="hero"
-              src= "/about1.png" width={309} height={536} 
+              src= "/aboutus.png" width={309} height={536} 
             />
           </div>
           {/* Right Images */}
@@ -40,14 +40,14 @@ export default function Aboutus() {
             <Image
               className="object-cover object-center w-309px h-271px mt-584px ml-660px radius-6px"
               alt="image2"
-              src="/youget.png"
+              src="/recentPost.png"
               width={309} height={271}
             />
             {/* Bottom Image */}
             <Image
               className="object-cover object-center w-309px h-382px mt-882px ml-660px radius-6px"
               alt="image3"
-              src="/youget2.png"
+              src="/about4.png"
               width={309} height={382}
             />
           </div>
