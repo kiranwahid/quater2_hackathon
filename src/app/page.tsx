@@ -1,27 +1,12 @@
+import React from 'react'
+import Hero from './hero/page'
 
-import Dessert from "@/components/Dessert/Dessert";
-import Drink from "@/components/Drinks/Drinks";
-import Experience from "@/components/Experience/Experience";
-import Hero from "@/components/HeroSection/Hero";
-import MainCours from "@/components/MainCours/MainCourse";
-import StarterMenu from "@/components/Menu/StartMenu";
-import PartnersAndClients from "@/components/pattnerClient/pattnerClient";
-
-export default function Home() {
+function page() {
   return (
-<>
-
-<div>
-
-
-  <Hero/>
-  <StarterMenu/>
-  <MainCours/>
-  <Experience/>
-  <Dessert/>
-  <Drink/>	
-  <PartnersAndClients/>
-</div>
-</>
-  );
+    <div>
+<Hero/>
+    </div>
+  )
 }
+
+export default page
