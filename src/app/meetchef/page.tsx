@@ -1,9 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import chef1 from "../assets/Chef Card 1.png";
-import chef2 from "../assets/Card 2.png";
-import chef3 from "../assets/Card 3.png";
-import chef4 from "../assets/Card 4.png";
+
 
  
 function MeetShef() {
@@ -20,10 +17,10 @@ function MeetShef() {
         </h1>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-[20px] mt-[50px]">
-          <Image src={chef1} alt="" className="w-[200px] md:w-[305px] md:h-[280px] cursor-pointer"/>
-          <Image src={chef2} alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
-          <Image src={chef3} alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
-          <Image src={chef4} alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
+          <Image src="/chef1.png" alt="" className="w-[200px] md:w-[305px] md:h-[280px] cursor-pointer"/>
+          <Image src="chef2.png" alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
+          <Image src="chef3.png" alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
+          <Image src="chef4.png" alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
         </div>
       </section>
     </>
