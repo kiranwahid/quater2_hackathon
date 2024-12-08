@@ -178,6 +178,7 @@ export default function CheckoutPage() {
                   <Image
                     src= '/checkout.png'
                     alt="Chicken Tikka Kebab"
+                    width={100} height={100}
                     fill
                     className="rounded-md object-cover"
                   />

@@ -12,7 +12,7 @@ function Hero() {
         {/* Heading */}
         <div className='text-white w-full md:w-[50%]'>
   <h1 className='md:text-[32px] text-[24px] font-normal text-[#FF9F0D] font whitespace-nowrap'>
-    Its Quick & Amusing!
+    Its Quick and Amusing!
   </h1>
 
   <h1 className='text-[25px] md:text-[50px] font-bold whitespace-nowrap md:whitespace-normal'>
@@ -102,8 +102,8 @@ function Hero() {
       <div className="mt-[50px] md:mt-0 ">
         <Image src="/about1.png" alt="Hero Image" className="" width={336} height={536} />
         <div className="flex flex-col md:flex-row mt-[16px] md:mt-[0]">
-          <Image src="" alt="Hero Image" className="mr-[16px] pt-[40px]" />
-          <Image src="" alt="Hero Image" className="pt-[40px]" />
+          <Image src="" alt="Hero Image" width={336} height={536} className="mr-[16px] pt-[40px]" />
+          <Image src="" alt="Hero Image" width={336} height={536} className="pt-[40px]" />
         </div>
       </div>
     </section>

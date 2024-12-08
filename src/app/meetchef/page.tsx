@@ -17,10 +17,10 @@ function MeetShef() {
         </h1>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center gap-[20px] mt-[50px]">
-          <Image src="/chef1.png" alt="" className="w-[200px] md:w-[305px] md:h-[280px] cursor-pointer"/>
-          <Image src="chef2.png" alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
-          <Image src="chef3.png" alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
-          <Image src="chef4.png" alt="" className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
+          <Image src="/chef1.png" alt="" width={200} height={280} className="w-[200px] md:w-[305px] md:h-[280px] cursor-pointer"/>
+          <Image src="chef2.png" alt="" width={200} height={280} className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
+          <Image src="chef3.png" alt="" width={200} height={280} className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
+          <Image src="chef4.png" alt="" width={200} height={280} className="w-[200px] md:w-[280px] md:h-[280px] cursor-pointer" />
         </div>
       </section>
     </>

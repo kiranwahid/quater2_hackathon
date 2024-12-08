@@ -51,7 +51,7 @@ export default function SignUp() {
           <div className="text-center mt-8">
             <p>or</p>
             <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 flex gap-[78px] items-center justify-center">
-              <img src="/google.png" alt="Google" className="h-6 mr-2" width={20} height={20}/>
+              <Image src="/google.png" alt="Google" className="h-6 mr-2" width={20} height={20}/>
               Sign up with Google
             </button>
             <button className="w-full bg-gray-100 border text-black py-2 rounded mt-2 gap-[78px] flex items-center justify-center">
